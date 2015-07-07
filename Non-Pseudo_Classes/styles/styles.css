@@ -1,0 +1,12 @@
+//Non-Pseudo Classes:
+* {color: blue;} //this will apply to all the elements in the page
+
+//this will apply to everything except "class = one"
+:not(.one){color: red;}	
+
+//this will apply to all the paragraphs inside the div called "big"
+#big > p{color: green;}
+
+//this will apply to all the paragraphs of the same class='one'
+//after the first paragraph (because of the '+' selector)
+p.one+ p{color: red;}
