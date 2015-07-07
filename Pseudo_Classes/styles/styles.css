@@ -1,0 +1,6 @@
+//psudo classes
+p:nth-child(odd){color: red;}
+p:nth-child(even){color: green;}
+
+//using regular expressions
+p[name^="kid"]{color: red;}
