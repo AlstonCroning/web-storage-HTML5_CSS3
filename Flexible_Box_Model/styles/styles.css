@@ -1,0 +1,78 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header, section, footer, aside, nav, article, hgroup{
+	display: block; /*style them one under the other as blocks
+	also avoids problems with non-compatable browsers with html5
+	*/
+}
+
+body{
+	width: 100%;
+	display:-webkit-box; /*flexible boxes*/
+	-webkit-box-pack: center; /*center all our website similar to margin: 0px auto*/
+}
+
+#wrapper{
+	max-width: 1000px;
+	margin: 20px 0px;
+	display:-webkit-box; /*requred because the parent element has flexible boxes*/
+						 /*without it flexible boxes will not work*/
+	-webkit-box-orient: vertical; /*boxes will orient vertically*/
+	-webkit-box-flex: 1; /*this is how we say we want flexible or not*/
+						 /*1= flexible 0= not flexible */
+}
+
+#head{
+	background: orange;
+	border: 2px solid black;
+	padding: 20px;
+}
+
+article{
+	border: 1px solid black;
+	display: -webkit-box;
+	padding: 10px;
+	margin: 10px;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+}
+
+#navigation{
+	border: red;
+	background: yellow;
+}
+
+#navigation li{
+	display: inline;
+	list-style: none;
+	padding: 3px;
+}
+
+#new{
+	display:-webkit-box;
+	-webkit-box-orient: horizontal;
+}
+
+#main{
+	border: 1px solid black;
+	-webkit-box-flex: 1;
+	padding: 30px;
+}
+
+#side_box{
+	border: 1px solid black;
+	width: 230px;
+	padding: 10px;
+	margin: 10px;
+}
+
+#copyright{
+	text-align: center;
+	padding: 20px;
+	border-top: 1px solid black;
+	margin-top: 20px;
+}
