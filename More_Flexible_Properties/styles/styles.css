@@ -1,0 +1,50 @@
+
+#parent{
+	border: 1px solid black;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	height: 400px;
+	-webkit-box-align: start;/*aligns all the childern vertically*/
+}
+
+#child1{
+	border: 1px solid green;
+	background: yellow;
+	padding: 20px;
+	margin: 10px;
+	-webkit-box-flex: 1;/*number tells: 
+						1: whether flexible or not (1=flexible 0=not-flexible)
+						2: how big you want it to resize it to
+						3: bigger the number bigger the size is
+						4: if the number is 1 or more means flexible
+						5: if the number is 0 not flexible
+						*/
+	height: 100px;
+}
+
+#child2{
+	border: 1px solid green;
+	background: yellow;
+	padding: 20px;
+	margin: 10px;
+	-webkit-box-flex: 1;
+	height: 100px;	
+}
+
+#child3{
+	border: 1px solid green;
+	background: yellow;
+	padding: 20px;
+	margin: 10px;
+	-webkit-box-flex: 1;
+	height: 100px;	
+}
+
+#child4{
+	border: 1px solid green;
+	background: yellow;
+	padding: 20px;
+	margin: 10px;
+	-webkit-box-flex: 1;
+	height: 100px;	
+}
