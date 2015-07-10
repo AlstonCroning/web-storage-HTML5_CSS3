@@ -1,0 +1,19 @@
+
+#main{
+	margin: 0px auto;
+	border: 2px solid red;
+	width: 300px;
+	background: blue;
+	text-align: center;
+	color: white;
+/*	-webkit-transform: scale(1.2,2); /*1.2 is width and 2 is height*/
+/*	-webkit-transform: rotate(55deg);*/
+/*	-webkit-transform: translate(150px, 200px);/*move the box*/
+
+	/*multi statements: you can use as much as statements in one line*/
+	-webkit-transform: translate(200px,200px) rotate(45deg) scale(.5);
+}
+
+#text{
+	font: bold 30px Times new roman;
+}
